@@ -1,0 +1,27 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="header")
+      h1 Express Burger
+      ul  
+        li
+          a(href="/Home") Home
+        li
+          a(href="/Burgers") Burgers
+        li
+          a(href="/Sides") Sides
+        li
+          a(href="/Desserts") Desserts
+        li(style="float:right")
+          a(class="active" href="/Directions") Directions
+      div(class="contact")
+      img(src="https://c4.wallpaperflare.com/wallpaper/136/1020/939/puppets-japanese-umbrella-kimono-hands-hd-wallpaper-preview.jpg", alt="asian", style="width:100%; height:auto margin:0 auto;" text="Express")
+      <div class="contactus">You can call us at (832) 405-2842</div>
+      footer
+        nav
+          ul  
+            li
+              a(class = "active" href="/Contact") Contact Us
+    block content

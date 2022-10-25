@@ -1,0 +1,61 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="header")
+      h1 Express Burger
+      ul 
+        li
+          a(href="/Home") Home
+        li
+          a(href="/Burgers") Burgers
+        li
+          a(href="/Sides") Sides
+        li
+          a(href="/Desserts") Desserts
+        li(style="float:right")
+          a(class="active" href="/Directions") Directions
+      p
+        img(src="https://www.mcdonalds.com/content/dam/ArabiaGWS/english/nutrition/items/hero/mobile/deserts_750x720.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Caramel Sundae
+      div
+      a(class="description") Caramel and Ice Cream
+      p
+        img(src="https://mcdonalds.com.au/sites/mcdonalds.com.au/files/Product-Details-McFlurry-Oreo-mobile.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Oreo McFlurry
+      div
+      a(class="description") Oreos and Ice Cream
+      p
+        img(src="http://prod.static9.net.au/_/media/2018/09/19/14/11/mcdonalds-classic-apple-pie.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Apple Pie
+      div
+      a(class="description") Apples mixed with Syrup
+      p
+        img(src="https://cmgpbpfeastpb.files.wordpress.com/2015/06/dairyqueentriplebrowniecontributed.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Icream
+      div
+      a(class="description") Choclate Syrup with cake
+      p
+        img(src="https://images.chickadvisor.com/item/33713/original/16ea70f8c4b8bbb3488d9fb337ebd042.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Choclate Cake
+      div
+      a(class="description") Icing and Choclate Syrup
+      div(class="header")
+        ul 
+          li
+            a(href="/Home") Home
+          li
+            a(href="/Burgers") Burgers
+          li
+            a(href="/Sides") Sides
+          li
+            a(href="/Desserts") Desserts
+          li(style="float:right")
+            a(class="active" href="/Directions") Directions
+      footer
+        nav
+          ul  
+            li
+              a(class = "active" href="/Contact") Contact Us
+    block content

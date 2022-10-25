@@ -1,0 +1,61 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="header")
+      h1 Express Burger
+      ul 
+        li
+          a(href="/Home") Home
+        li
+          a(href="/Burgers") Burgers
+        li
+          a(href="/Sides") Sides
+        li
+          a(href="/Desserts") Desserts
+        li(style="float:right")
+          a(class="active" href="/Directions") Directions
+      p
+        img(src="https://thecozycook.com/wp-content/uploads/2019/05/BEST-Cheesy-Homemade-Garlic-Bread-Recipe-2.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Bread
+      div
+      a(class="description") Garlic Oil with bread
+      p
+        img(src="https://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1504124763/greek-chopped-salad-grilled-pita-1710p26.jpg?itok=wcW1cMEp", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Salad
+      div
+      a(class="description") Tomatoes and Chess
+      p
+        img(src="https://whiteonricecouple.com/recipe/images/spinach-artichoke-dip-500-1.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Spinach Dip
+      div
+      a(class="description") Spinach With Swiss Cheese
+      p
+        img(src="https://www.mcdonalds.com/content/dam/uk/nutrition/category/hero/desk/fries-and-side.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Fries
+      div
+      a(class="description") Salty Fries 
+      p
+        img(src="https://peasandcrayons.com/wp-content/uploads/2015/12/homemade-easy-garden-veggie-vegetable-dip-appetizer-recipe-1106xS.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Dip
+      div
+      a(class="description") Tostitos Dip
+      div(class="header") 
+        ul 
+          li
+            a(href="/Home") Home
+          li
+            a(href="/Burgers") Burgers
+          li
+            a(href="/Sides") Sides
+          li
+            a(href="/Desserts") Desserts
+          li(style="float:right")
+            a(class="active" href="/Directions") Directions
+      footer
+        nav
+          ul  
+            li
+              a(class = "active" href="/Contact") Contact Us
+    block content

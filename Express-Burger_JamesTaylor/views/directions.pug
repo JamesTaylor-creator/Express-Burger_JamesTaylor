@@ -1,0 +1,26 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="header")
+      h1 Express Burger
+      ul 
+        li
+          a(href="/Home") Home
+        li
+          a(href="/Burgers") Burgers
+        li
+          a(href="/Sides") Sides
+        li
+          a(href="/Desserts") Desserts
+        li(style="float:right")
+          a(class="active" href="/Directions") Directions
+      div(class="header")
+        img(src="http://www.destination360.com/north-america/us/texas/pearland/hampton-inn-houston-pearland-map.gif", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      footer
+        nav
+          ul  
+            li
+              a(class = "active" href="/Contact") Contact Us
+    block content

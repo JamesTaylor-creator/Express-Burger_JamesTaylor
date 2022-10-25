@@ -1,0 +1,61 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="header")
+      h1 Express Burger
+      ul 
+        li
+          a(href="/Home") Home
+        li
+          a(href="/Burgers") Burgers
+        li
+          a(href="/Sides") Sides
+        li
+          a(href="/Desserts") Desserts
+        li(style="float:right")
+          a(class="active" href="/Directions") Directions
+      p
+        img(src="https://static01.nyt.com/images/2017/03/31/us/31mcdonalds_xp/31mcdonalds_xp-articleLarge.jpg?quality=75&auto=webp&disable=upscale", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Quater Pounder 
+      div
+      a(class="description") Ketchup and American Cheese
+      p
+        img(src="https://www.rd.com/wp-content/uploads/2016/04/07-mcdonalds-trivia-burger-1024x683.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Bacon Burger
+      div
+      a(class="description") Bacon and American Cheese
+      p
+        img(src="https://i2-prod.mirror.co.uk/incoming/article12042753.ece/ALTERNATES/s615/signature-bbq-img-v1JPG.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a BBQ Burger
+      div
+      a(class="description") BBQ and Bacon
+      p
+        img(src="https://amishbabymachine.files.wordpress.com/2015/04/mcdonalds-burger.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Mushroom Swiss Burger
+      div
+      a(class="description") Mushrooms and Swiss Cheese
+      p
+        img(src="https://i2.cdn.turner.com/money/dam/assets/151104111403-mcdonalds-premium-burger-780x439.jpg", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      a Jalapeno Burger
+      div
+      a(class="description") Jalapenos and Swiss Cheese
+      div(class="header")
+        ul 
+          li
+            a(href="/Home") Home
+          li
+            a(href="/Burgers") Burgers
+          li
+            a(href="/Sides") Sides
+          li
+            a(href="/Desserts") Desserts
+          li(style="float:right")
+            a(class="active" href="/Directions") Directions
+      footer
+        nav
+          ul  
+            li
+              a(class = "active" href="/Contact") Contact Us
+    block content

@@ -1,0 +1,40 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="header")
+      h1 Express Burger
+      ul 
+        li
+          a(href="/Home") Home
+        li
+          a(href="/Burgers") Burgers
+        li
+          a(href="/Sides") Sides
+        li
+          a(href="/Desserts") Desserts
+        li(style="float:right")
+          a(class="active" href="/Directions") Directions
+      p
+        img(src="https://i0.wp.com/blog.visitalexandriava.com/wp-content/uploads/2016/10/Joe-Theismanns-Burger.jpg?zoom=2.5&resize=880%2C587&ssl=1", alt="goodBurger" style="width:100%; height:auto; margin:0 auto;")
+      div
+        img(src="http://www.nogarlicnoonions.com/images/uploads/NEWS/Kale-Burger-mcd.jpg", alt="burger" style="width:100%; height:auto margin:0 auto;")
+      div(class="header")
+        ul 
+          li
+            a(href="/Home") Home
+          li
+            a(href="/Burgers") Burgers
+          li
+            a(href="/Sides") Sides
+          li
+            a(href="/Desserts") Desserts
+          li(style="float:right")
+            a(class="active" href="/Directions") Directions
+      footer
+        nav
+          ul  
+            li
+              a(class = "active" href="Contact") Contact Us
+    block content

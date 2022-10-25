@@ -1,0 +1,75 @@
+{
+
+    "items": [
+  
+      {
+  
+        "itemName": "Burgers",
+
+        "mainImage": "https://cdn.arstechnica.net/wp-content/uploads/2018/08/IF-Burger.jpg",
+
+        "description": "Full list of our burgers",
+
+        "images": [
+
+            {
+    
+              "title": "Mcdouble",
+    
+              "description": "Very good and cheap!",
+    
+              "img": "01"
+    
+            }
+          ]
+        
+      },
+  
+      {
+  
+        "itemName": "Impossible Burger",
+
+        "mainImage": "https://cdn.arstechnica.net/wp-content/uploads/2018/08/IF-Burger.jpg",
+
+        "description": "So juicy you'll love it!",
+
+        "images": [
+
+            {
+    
+              "title": "Mcdouble",
+    
+              "description": "Very good and cheap!",
+    
+              "img": "01"
+    
+            }
+          ]
+        
+      },
+  
+      {
+  
+        "itemName": "Impossible Burger",
+
+        "mainImage": "https://cdn.arstechnica.net/wp-content/uploads/2018/08/IF-Burger.jpg",
+
+        "description": "So juicy you'll love it!",
+
+        "images": [
+
+            {
+    
+              "title": "Mcdouble",
+    
+              "description": "Very good and cheap!",
+    
+              "img": "01"
+    
+            }
+          ]
+        
+      }
+    ]
+  
+  }
